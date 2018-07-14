@@ -15,7 +15,7 @@ function who_won(choice_1, choice_2) {
       return 1;
     }
   } else {
-    if (choice_2 = "r") {
+    if (choice_2 === "r") {
       return 0;
     } else {
       return 1;
