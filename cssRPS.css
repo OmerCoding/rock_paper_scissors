@@ -1,9 +1,4 @@
-div, p {
-  border: 1px solid red;
-}
-
 #wrapper {
-  border: 5px solid green;
   position: absolute;
   margin: 0;
   padding: 0;
@@ -13,18 +8,49 @@ div, p {
   width: 100%;
 }
 
+#upper_word {
+  position: relative;
+  width: 300px;
+  margin-left: 50%;
+  left: -150px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-family: arial;
+  font-size: 80px;
+}
+
 #rock {
+  position: relative;
   content: url('photos/rock.png');
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  margin-left: 50%;
+  left: -420px;
+  float: left;
 }
 
 #paper {
+  position: relative;
   content: url('photos/paper.png');
-  height: 100px;
+  height: 200px;
+  float: left;
+  left: -300px;
+
 }
 
 #scissors {
+  position: relative;
   content: url('photos/scissors.png');
-  height: 100px;
+  height: 200px;
+  left: -180px;
+
+}
+
+#bottom_word {
+  position: relative;
+  width: 180px;
+  margin-left: 50%;
+  left: -90px;
+  margin-top: 50px;
+  font-family: arial;
+  font-size: 80px;
 }
